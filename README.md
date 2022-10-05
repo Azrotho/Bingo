@@ -1,3 +1,3 @@
 # Bingo
 
-Plugin pou jouer au bingo tous ensemble ✨
+Plugin pour jouer au bingo tous ensemble ✨
