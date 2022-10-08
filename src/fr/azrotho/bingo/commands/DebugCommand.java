@@ -32,14 +32,15 @@ public class DebugCommand implements CommandExecutor {
 
                     p.setHealth(20);
                     p.setFoodLevel(20);
+                    Main.getScore().put(p.getUniqueId(), 0);
                 }
                 int current = 0;
                 Material[] materials = Material.values();
                 List<Material> materialList = Arrays.asList(materials);
                 Collections.shuffle(materialList);
-                // Todo: Take 25 items random from the list of materials
+
                 ArrayList<ItemStack> itms = new ArrayList<ItemStack>();
-                for (int i = 0; i < 45; i++) {
+                for (int i = 0; i < 54; i++) {
                     if(current == 1000){
                         break;
                     }
